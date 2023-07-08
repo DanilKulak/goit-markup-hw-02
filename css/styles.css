@@ -1,0 +1,7 @@
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: var(--slate, #434455);
+  background-color: white;
+  line-height: 1.66;
+  font-weight: 500;
+}
