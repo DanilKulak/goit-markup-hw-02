@@ -29,6 +29,7 @@ li {
 }
 .link {
   text-decoration: none;
+  color: var(--slate, #434455);
 }
 button {
   cursor: pointer;
@@ -68,7 +69,7 @@ a {
   text-transform: uppercase;
 }
 .header-menu-item {
-  color: #2e2f42;
+  color: var(--navyblue, #2e2f42);
   font-family: var(--font-primary);
   font-size: 16px;
   font-style: normal;
@@ -78,7 +79,7 @@ a {
   text-transform: uppercase;
 }
 .header-address {
-  color: #434455;
+  color: var(--slate, #434455);
   font-family: var(--font-primary);
   font-size: 16px;
   font-style: normal;
