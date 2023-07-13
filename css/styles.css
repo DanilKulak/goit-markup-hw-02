@@ -29,7 +29,7 @@ li {
 }
 .link {
   text-decoration: none;
-  color: var(--slate, #434455);
+  color: inherit;
 }
 button {
   cursor: pointer;
