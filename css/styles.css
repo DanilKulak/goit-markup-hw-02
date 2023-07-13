@@ -91,10 +91,6 @@ a {
 .link:focus {
   color: #404bbf;
 }
-.list:hover,
-.list:focus {
-  color: #404bbf;
-}
 /* -------------MAIN----------- */
 .section-one {
   background: var(--navyblue, #2e2f42);
