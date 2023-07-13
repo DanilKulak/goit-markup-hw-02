@@ -68,7 +68,7 @@ a {
   text-transform: uppercase;
 }
 .header-menu-item {
-  color: #2e2f42;
+  color: var(--navyblue, #2e2f42);
   font-family: var(--font-primary);
   font-size: 16px;
   font-style: normal;
@@ -78,7 +78,7 @@ a {
   text-transform: uppercase;
 }
 .header-address {
-  color: #434455;
+  color: var(--slate, #434455);
   font-family: var(--font-primary);
   font-size: 16px;
   font-style: normal;
@@ -87,16 +87,12 @@ a {
   letter-spacing: 0.02em;
   text-transform: uppercase;
 }
-.header-menu-item:hover {
+.link:hover,
+.link:focus {
   color: #404bbf;
 }
-.header-menu-item:focus {
-  color: #404bbf;
-}
-.header-address:hover {
-  color: #404bbf;
-}
-.header-address:focus {
+.list:hover,
+.list:focus {
   color: #404bbf;
 }
 /* -------------MAIN----------- */
