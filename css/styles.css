@@ -30,6 +30,7 @@ li {
 .link {
   text-decoration: none;
   color: var(--slate, #434455);
+  color: var(--navyblue, #2e2f42);
 }
 button {
   cursor: pointer;
