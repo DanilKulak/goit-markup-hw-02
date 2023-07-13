@@ -72,7 +72,7 @@ a {
   text-transform: uppercase;
 }
 .header-menu-item {
-  color: #2e2f42;
+  color: var(--navyblue) #2e2f42;
   font-family: var(--font-primary);
   font-size: 16px;
   font-style: normal;
@@ -91,20 +91,24 @@ a {
   letter-spacing: 0.02em;
   text-transform: uppercase;
 }
-.header-menu-item:hover,
-.header-menu-item:focus,
-.header-address:hover,
+.header-menu-item:hover {
+  color: #404bbf;
+}
+.header-menu-item:focus {
+  color: #404bbf;
+}
+.header-address:hover {
+  color: #404bbf;
+}
 .header-address:focus {
   color: #404bbf;
 }
 /* -------------MAIN----------- */
 .section-one {
   background: var(--navyblue, #2e2f42);
-  text-align: center;
 }
 .main-title {
   color: var(--white, #fff);
-  text-align: center;
   font-family: var(--font-primary);
   font-size: 56px;
   font-style: normal;
@@ -114,14 +118,12 @@ a {
 }
 .text-btn {
   color: var(--white, #fff);
-  text-align: center;
   font-family: var(--font-primary);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  border-radius: 4px;
   background-color: #4d5ae5;
   cursor: pointer;
 }
@@ -167,7 +169,6 @@ a {
 }
 .main-title-text {
   color: var(--navyblue, #2e2f42);
-  text-align: center;
   font-family: var(--font-primary);
   font-size: 36px;
   font-style: normal;
