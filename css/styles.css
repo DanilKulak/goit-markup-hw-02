@@ -47,6 +47,7 @@ button {
 .header-logo {
   color: var(--iris, #4d5ae5);
   font-family: "Raleway", sans-serif;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -102,6 +103,7 @@ button {
 }
 .btn-item {
   font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -124,6 +126,7 @@ button {
 .main-title-list {
   color: var(--navyblue, #2e2f42);
   font-family: var(--font-primary);
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -147,6 +150,7 @@ button {
 .portfolio-title {
   color: var(--navyblue, #2e2f42);
   font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
